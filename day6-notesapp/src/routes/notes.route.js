@@ -9,8 +9,8 @@ const {
 
 const router = express.Router();
 
-// CREATE
-router.post("/create", createNotesController);
+// CREATE. 
+router.get("/create", createNotesController);
 
 // READ
 router.get("/allNotes", getAllNotesController);
